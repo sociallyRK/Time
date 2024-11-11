@@ -1,0 +1,14 @@
+from datetime import datetime
+
+#REFACTORED
+def now_12hr(): return datetime.now().strftime("%I:%M %p").lstrip("0") #Format to 12 hours - No Input
+
+#FUNCTIONAL
+def now(): return datetime.now() #Retrieve the current time
+def hr12(input): return input.strftime("%I:%M %p").lstrip("0") #Format to 12 hours - With Input
+
+print("The time is", now_12hr(), "/", hr12(now()))
+
+
+
+
