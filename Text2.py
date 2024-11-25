@@ -5,7 +5,7 @@ from twilio.rest import Client
 # Read more at http://twil.io/secure
 
 account_sid = "AC30cd08d8f54f6bd71e82510d3de45a72"
-auth_token = "02fa887cab4009b3957d8f679923bc10"
+auth_token = ""
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
