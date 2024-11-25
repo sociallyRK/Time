@@ -31,7 +31,7 @@ print(timestamp)
 # Example Usage
 if __name__ == "__main__":
     ACCOUNT_SID = "AC30cd08d8f54f6bd71e82510d3de45a72"
-    AUTH_TOKEN = "02fa887cab4009b3957d8f679923bc10"
+    AUTH_TOKEN = ""
     FROM_NUMBER = "+18339876850"  # Your Twilio phone number
     TO_NUMBER = "+13106660143"    # Recipient's phone number
     MESSAGE = f"{timestamp} Hello from Rahul Khanna.  The file name is Text.py 554331483951"
